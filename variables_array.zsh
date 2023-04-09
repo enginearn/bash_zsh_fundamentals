@@ -172,7 +172,7 @@ echo ${file##*.}
 echo ${file%.*}
 echo ${file%%.*}
 
-path=$(pwd)/${0:2} # file name
+path=$(pwd)/${0:2} # get file name
 echo $path
 echo ${path%/*}
 echo ${path##*/}
